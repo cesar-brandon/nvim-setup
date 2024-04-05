@@ -142,7 +142,16 @@ return {
     opts = {
       ensure_installed = {
         "astro",
+        "cpp",
+        "cmake",
+        "css",
+        "scss",
+        "gitignore",
+        "graphql",
+        "http",
+        "rust",
         "bash",
+        "sql",
         "html",
         "javascript",
         "json",
