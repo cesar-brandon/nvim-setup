@@ -94,6 +94,7 @@ return {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
       },
+      inlay_hints = { enabled = true },
     },
   },
 
@@ -149,7 +150,6 @@ return {
         "gitignore",
         "graphql",
         "http",
-        "rust",
         "bash",
         "sql",
         "html",
