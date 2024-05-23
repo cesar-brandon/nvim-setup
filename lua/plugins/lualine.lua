@@ -28,24 +28,9 @@ return {
       -- }
 
       --gruvbox dark
-      -- local colors = {
-      --   bg = "#282828",
-      --   fg = "#ebdbb2",
-      --   yellow = "#fabd2f",
-      --   cyan = "#83a598",
-      --   darkblue = "#458588",
-      --   green = "#b8bb26",
-      --   orange = "#fe8019",
-      --   violet = "#b16286",
-      --   magenta = "#d3869b",
-      --   blue = "#83a598",
-      --   red = "#fb4934",
-      -- }
-
-      --gruvbox light
       local colors = {
-        bg = "#fbf1c7",
-        fg = "#3c3836",
+        bg = "#282828",
+        fg = "#ebdbb2",
         yellow = "#fabd2f",
         cyan = "#83a598",
         darkblue = "#458588",
@@ -56,6 +41,21 @@ return {
         blue = "#83a598",
         red = "#fb4934",
       }
+
+      --gruvbox light
+      -- local colors = {
+      --   bg = "#fbf1c7",
+      --   fg = "#3c3836",
+      --   yellow = "#fabd2f",
+      --   cyan = "#83a598",
+      --   darkblue = "#458588",
+      --   green = "#b8bb26",
+      --   orange = "#fe8019",
+      --   violet = "#b16286",
+      --   magenta = "#d3869b",
+      --   blue = "#83a598",
+      --   red = "#fb4934",
+      -- }
 
       local conditions = {
         buffer_not_empty = function()
