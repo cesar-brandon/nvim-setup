@@ -1,7 +1,6 @@
 <h3 align="center">
     <img src="./images/totoro-sticker.png" width="100" alt="Logo"/><br/>
-    <a style="color:#79740e" href="https://github.com/neovim/neovim">(Neo)</a><a style="color:#b8bb26" href="https://github.com/vim/vim">vim</a> 
-  <p align="center" style="color:#bdae93">Setup for Cesar Brandon</p>
+    <a style="color:#79740e" href="https://github.com/neovim/neovim">(Neo)</a><a style="color:#b8bb26" href="https://github.com/vim/vim">vim</a> for Cesar Brandon
     <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
