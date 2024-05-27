@@ -28,11 +28,11 @@ return {
         highlight = {
           groups = {
             -- tokyonight
-            -- InclineNormal = { guibg = colors.blue, guifg = colors.bg_dark },
-            -- InclineNormalNC = { guifg = colors.purple, guibg = colors.bg_dark },
+            InclineNormal = { guibg = colors.blue, guifg = colors.bg_dark },
+            InclineNormalNC = { guifg = colors.purple, guibg = colors.bg_dark },
             -- Gruvbox
-            InclineNormal = { guibg = "#d65d0e", guifg = "#3c3836" },
-            InclineNormalNC = { guifg = "#3c3836", guibg = "#98971a" },
+            --   InclineNormal = { guibg = "#d65d0e", guifg = "#3c3836" },
+            --   InclineNormalNC = { guifg = "#3c3836", guibg = "#98971a" },
           },
         },
         window = { margin = { vertical = 0, horizontal = 1 } },

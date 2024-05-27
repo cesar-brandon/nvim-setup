@@ -1,17 +1,17 @@
 return {
-  { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = {
-    transparent_mode = true,
-  } },
-  -- {
-  --   "folke/tokyonight.nvim",
-  --   opts = {
-  --     transparent = true,
-  --     styles = {
-  --       sidebars = "transparent",
-  --       floats = "transparent",
-  --     },
-  --   },
-  -- },
+  -- { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = {
+  --   transparent_mode = false,
+  -- } },
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
   -- {
   --   "catppuccin/nvim",
   --   lazy = true,
