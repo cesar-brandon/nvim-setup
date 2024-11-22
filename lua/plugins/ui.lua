@@ -52,20 +52,37 @@ return {
     end,
   },
   {
-    "nvimdev/dashboard-nvim",
-    event = "VimEnter",
-    opts = function(_, opts)
-      local logo = [[
+    "folke/snacks.nvim",
+    config = function()
+      require("snacks").setup({
+        dashboard = {
+          enabled = true,
+          preset = {
+            header = [[
 ██████╗  ██████╗ ███╗   ██╗    ██████╗ ██╗ █████╗ ██╗
 ██╔══██╗██╔═══██╗████╗  ██║    ██╔══██╗██║██╔══██╗██║
 ██████╔╝██║   ██║██╔██╗ ██║    ██║  ██║██║███████║██║
 ██╔══██╗██║   ██║██║╚██╗██║    ██║  ██║██║██╔══██║╚═╝
 ██████╔╝╚██████╔╝██║ ╚████║    ██████╔╝██║██║  ██║██╗
 ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝    ╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝
-      ]]
-
-      logo = string.rep("\n", 8) .. logo .. "\n\n"
-      opts.config.header = vim.split(logo, "\n")
+]],
+          },
+          sections = {
+            {
+              pane = 2,
+              { section = "header" },
+              { section = "keys", gap = 1, padding = 1 },
+              { section = "startup" },
+            },
+            {
+              section = "terminal",
+              cmd = "cat | C:/Users/Montenegro/AppData/Local/nvim/ansi/gopher.sh",
+              width = 46,
+              height = 25,
+            },
+          },
+        },
+      })
     end,
   },
 }
