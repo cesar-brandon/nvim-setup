@@ -3,8 +3,9 @@
     "lazyvim.plugins.extras.coding.mini-surround",
     "lazyvim.plugins.extras.coding.yanky"
   ],
+  "install_version": 7,
   "news": {
-    "NEWS.md": "7429"
+    "NEWS.md": "10960"
   },
-  "version": 7
+  "version": 8
 }
